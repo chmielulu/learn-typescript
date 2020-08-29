@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./build",
+    "baseUrl": "./src/",
+    "paths": {
+      "@classes/*": ["./classes/*"],
+      "@interfaces/*": ["./interfaces/*"]
+    }
+  }
+}
